@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: josefin Sans, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f0f8fd;
+}
+
+.landing-page{
+    width:100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr min-content;
+}
+
+.left-side{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #1aa1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-side-content div{
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+    color: #fff;
+}
+
+.left-side-content i {
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+.left-side-content heading {
+    font-size: 2rem;
+}
+
+.right-side{
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    position: relative;
+}
+
+.right-side-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  
+}
+
+.right-side-content i {
+    font-size: 4rem;
+    color: #1aa1f5;
+    margin-bottom: 2rem;
+}
+
+.right-side-content h1{
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+    line-height: 4rem;
+}
+
+.right-side-content h4{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.right-side-content button{
+    margin: 0.8rem 0;
+    padding: 0.5rem;
+    border: 0.1rem Solid #1aa1f5;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ 
+}
+
+.sign-up{
+    background-color: #1aa1f5;
+    color: #fff;
+    font-weight: bold;
+}
+.sign-up:hover {
+    background-color: #0f5d8d;
+    
+}
+.log-in{
+    background-color: #fff;
+    color: #1aa1f5;
+    font-weight: bold;
+}
+.log-in:hover {
+    background-color: #d9ebf7;
+}
+
+.landing-page-footer{
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    background-color: #f5f4f4;
+    padding: 1.5rem;
+    border-top: 0.1rem solid #ddd;
+}
+
+.landing-page-footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.landing-page-footer a{
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
