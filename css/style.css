@@ -81,7 +81,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.right-side-content button{
+.right-side-content a{
     margin: 0.8rem 0;
     padding: 0.5rem;
     border: 0.1rem Solid #1aa1f5;
@@ -89,6 +89,8 @@ body{
     font-size: 1.6rem;
     cursor: pointer;
     transition: background-color 0.3s;
+    padding-left: 14.5rem;
+   
  
 }
 
@@ -101,10 +103,11 @@ body{
     background-color: #0f5d8d;
     
 }
-.log-in{
+.log-in {
     background-color: #fff;
     color: #1aa1f5;
     font-weight: bold;
+  
 }
 .log-in:hover {
     background-color: #d9ebf7;
