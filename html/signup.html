@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>Signup Page</title>
+    <link rel="stylesheet" href="/css/signup.css">
+    <title>Signup </title>
 </head>
 <body>
-    <div class="container">
+    <section class="container">
         <div class="signup">
             <i class="fab fa-twitter"></i>
-            <h4>Next</h3>
-            <h2>Create your account</h1>
-            <form class="sign-up form">
+           <!-- <h4>Next</h4> --->
+            <h2>Create your account</h2>
+            <form class="signup-form">
                 <input type="text" name= "name" placeholder="Name">
                 <input type="text" name="phoneno" placeholder="Phone">
                 <p>Use email instead</p>
-                <label for="dateofbirth"> Date of birth
-                <br> This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or something else.</br>
-            </label> 
+                <label for="dateofbirth"><h5> Date of birth</h5>
+                 This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or something else.
+            </label>
+            <div class="dropdown">
             <select class="month">
                 <option value="month">Month</option>
                 <option>January</option>
@@ -36,9 +38,10 @@
                 <option>2020</option>
                 <option>2019</option>
             </select>
+            </div>
             </form>
         </div>
 
-    </div>
+    </section>
 </body>
 </html>
